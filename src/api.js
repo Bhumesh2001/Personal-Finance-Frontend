@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://personal-finance-backend-jade.vercel.app/api";
 
 export const getTransactions = async () => axios.get(`${API_BASE_URL}/transactions`);
 export const addTransaction = async (data) => axios.post(`${API_BASE_URL}/transactions`, data);
