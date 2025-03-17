@@ -1,0 +1,263 @@
+/* ======================== */
+/* 🚀 Dashboard Styles */
+/* ======================== */
+body {
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+.dashboard-container {
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 30px;
+  color: white;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.summary-card,
+.recent-transactions {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 12px;
+  padding: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.summary-card:hover,
+.recent-transactions:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.table {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.table thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ======================== */
+/* 📜 Transactions Styles */
+/* ======================== */
+.transactions-container {
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 30px;
+  color: white;
+}
+
+.transactions-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.transaction-card,
+.transaction-table-card {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.transaction-card:hover,
+.transaction-table-card:hover {
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.transaction-table {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.transaction-table thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.transaction-row:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease-in-out;
+}
+
+/* Transaction Table Buttons */
+.transaction-table button {
+  transition: all 0.3s ease-in-out;
+}
+
+.transaction-table button:hover {
+  transform: scale(1.05);
+}
+
+/* Edit Modal */
+.modal-content {
+  background: linear-gradient(to right, #232526, #414345);
+  color: white;
+  border-radius: 12px;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+.modal-header .btn-close {
+  background-color: white;
+}
+
+/* Form Controls */
+.modal-body input,
+.modal-body select {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px !important;
+}
+
+.modal-body input:focus,
+.modal-body select:focus {
+  background: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3) !important;
+  outline: none !important;
+}
+
+/* ======================== */
+/* 💰 Budget Styles */
+/* ======================== */
+.budgets-container {
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 30px;
+  color: white;
+}
+
+.budgets-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.budget-card {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.budget-card:hover {
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* ======================== */
+/* ✨ Form Inputs & Buttons */
+/* ======================== */
+.custom-input,
+.custom-dropdown {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.custom-input:focus,
+.custom-dropdown:focus {
+  background: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3) !important;
+  outline: none !important;
+}
+
+/* Floating Labels */
+.form-floating label {
+  color: white;
+}
+
+/* Custom Buttons */
+.custom-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+}
+
+/* Progress Bar Customization */
+.progress-bar-custom {
+  height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* ======================== */
+/* 🌟 Navbar Styles */
+/* ======================== */
+
+.custom-navbar {
+  background: linear-gradient(to right, #232526, #414345);
+  padding: 12px 20px;
+  /* border-radius: 8px; */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: white !important;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+/* Navbar Links */
+.nav-link-custom {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffcc00 !important;
+  transform: scale(1.05);
+}
+
+/* Active Link */
+.nav-link-custom.active {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffcc00 !important;
+  font-weight: bold;
+}
+
+/* Mobile Navbar Toggler */
+.custom-toggler {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.custom-toggler:focus,
+.custom-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
